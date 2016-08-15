@@ -1,0 +1,29 @@
+{
+  "name": "06-VSTDA-Refactor",
+  "authors": [
+    "Blaine Arnau <blainearnau@gmail.com>"
+  ],
+  "description": "",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
